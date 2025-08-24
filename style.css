@@ -27,8 +27,12 @@ body {
 
 header {
     background-color: var(--hero-footer-bg-color);
-    color: var(--header-logo-color);
     padding: 1rem 6rem;
+}
+
+.logo {
+    color: var(--header-logo-color);
+    font-size: 24px;
 }
 
 .navigation {
@@ -42,4 +46,58 @@ header {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--hero-footer-bg-color);
+    color: var(--hero-main-text-color);
+    padding: 2rem 6rem;
+}
+
+
+/* content text */
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content-text h2 {
+    font-size: 48px;
+    color: var(--hero-main-text-color);
+    font-weight: 900;
+}
+
+.content-text p {
+    font-size: 18px;
+    color: var(--hero-secondary-link-text-color);
+}
+
+/* image */
+
+.img {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--btn-cta-color);
+    padding: 0.5rem 2rem;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 1rem;
 }
