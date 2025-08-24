@@ -57,7 +57,7 @@ header {
     align-items: center;
     background-color: var(--hero-footer-bg-color);
     color: var(--hero-main-text-color);
-    padding: 2rem 6rem;
+    padding: 5rem 6rem;
 }
 
 
@@ -110,7 +110,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    padding: 5rem;
 }
 
 .information h2 {
@@ -146,3 +146,25 @@ header {
     border-radius: 10px;
 }
 
+/* quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 20rem;
+    background-color: var(--quote-background-color);
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: var(--quote-text-color);
+}
+
+.quote p {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--quote-text-color);
+}
